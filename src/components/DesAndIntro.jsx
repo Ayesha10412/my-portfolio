@@ -1,6 +1,6 @@
 import React from "react";
 import { FaGithub, FaLinkedin, FaTwitter, FaFacebook } from "react-icons/fa";
-
+import resume from "../assets/AYESHA-KHANAM-Resume.pdf";
 const DesAndIntro = () => {
   return (
     <section
@@ -60,7 +60,7 @@ const DesAndIntro = () => {
           {/* Resume Download Button */}
           <div className="flex justify-center md:justify-start">
             <a
-              href="/resume.pdf" // Replace with the actual path to your resume file
+              href={resume} // Replace with the actual path to your resume file
               download
               className="btn btn-primary text-white bg-red-600 hover:bg-red-700 rounded-lg px-6 py-2 shadow-md"
             >
