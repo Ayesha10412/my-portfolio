@@ -5,7 +5,7 @@ const DesAndIntro = () => {
   return (
     <section
       className=" w-[80%] mx-auto bg-gradient-to-r from-gray-100 via-gray-200
-     to-gray-300 p-6 md:p-12 border-2 border-red-400  "
+     to-gray-300 p-6 md:p-12 border-2 border-red-400 mt-11 "
     >
       <div className="container mx-auto flex flex-col md:flex-row items-center justify-between ">
         {/* Profile Image */}
