@@ -1,0 +1,32 @@
+[
+  {
+    "name": "Project 1",
+    "image": "https://i.ibb.co.com/J72dJ3H/lingo-bingo.png",
+    "techStack": "React, Node.js, MongoDB",
+    "description": "A brief description of the project. This project focuses on web development with a full-stack architecture.",
+    "liveLink": "https://lingo-bingo-d22ee.web.app/",
+    "githubLink": "https://github.com/programming-hero-web-course1/b10-a9-authentication-Ayesha10412",
+    "challenges": "Some of the challenges faced include integrating the backend with the frontend and optimizing the database queries.",
+    "improvements": "In the future, I plan to implement a more efficient caching strategy and improve the UI/UX design."
+  },
+  {
+    "name": "Project 2",
+    "image": "https://i.ibb.co.com/ZW217mM/visa-portal.png",
+    "techStack": "React, Express, MongoDB",
+    "description": "A social media application with real-time messaging and authentication.",
+    "liveLink": "https://visa-portal-auth.web.app/",
+    "githubLink": "https://github.com/programming-hero-web-course2/b10-a10-client-side-Ayesha10412",
+    "challenges": "Some challenges faced include real-time message handling and managing multiple user states.",
+    "improvements": "I plan to add a more robust notification system and enhance the scalability of the backend."
+  },
+  {
+    "name": "Project 3",
+    "image": "https://i.ibb.co.com/0B2r46p/hotel-booking.png",
+    "techStack": "React, Express, MongoDBc",
+    "description": "A simple task management web application with user authentication and task categorization.",
+    "liveLink": "https://hotel-booking-d9888.web.app/",
+    "githubLink": "https://github.com/programming-hero-web-course2/b10a11-client-side-Ayesha10412",
+    "challenges": "I faced difficulties with task categorization and making the app mobile-responsive.",
+    "improvements": "I plan to integrate a more powerful database and work on the mobile responsiveness of the app."
+  }
+]

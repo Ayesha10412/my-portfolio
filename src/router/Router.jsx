@@ -4,6 +4,7 @@ import MainLayout from "../Pages/Layout/MainLayout";
 import About from "../components/About/About";
 import Skill from "../components/Skill/Skill";
 import Education from "../components/Education/Education";
+import Projects from "../components/Projects/Projects";
 
 const Router = createBrowserRouter([
   {
@@ -25,6 +26,10 @@ const Router = createBrowserRouter([
       {
         path: "/",
         element: <Education></Education>,
+      },
+      {
+        path: "/",
+        element: <Projects></Projects>,
       },
     ],
   },
