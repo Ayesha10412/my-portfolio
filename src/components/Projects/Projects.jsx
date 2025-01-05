@@ -1,7 +1,9 @@
 import React, { useState, useEffect } from "react";
-import projectsData from "../../../public/Data.json"; // Import the JSON file
 
 const Projects = () => {
+  // State to store all projects
+  const [projects, setProjects] = useState([]);
+  // State to store the selected project for viewing more details
   const [selectedProject, setSelectedProject] = useState(null);
 
   const handleViewMore = (project) => {
@@ -9,7 +11,9 @@ const Projects = () => {
   };
 
   useEffect(() => {
-    console.log(projectsData); // To check if the data is being imported correctly
+    fetch("/Data.json")
+      .then((res) => res.json())
+      .then((data) => setProjects(data)); // Storing fetched projects in the 'projects' state
   }, []);
 
   return (
@@ -21,7 +25,7 @@ const Projects = () => {
 
       {/* Projects Cards Section */}
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
-        {projectsData.map((project) => (
+        {projects.map((project) => (
           <div
             key={project.name}
             className="card bg-gradient-to-r from-teal-400 to-blue-600 text-white shadow-2xl rounded-xl overflow-hidden transform transition-all duration-500 hover:scale-105"
@@ -86,21 +90,36 @@ const Projects = () => {
               </a>
             </p>
             <p className="text-lg mb-4 text-gray-600">
-              <strong>GitHub Link:</strong>{" "}
+              <strong>GitHub Client Link:</strong>{" "}
               <a
-                href={selectedProject.githubLink}
+                href={selectedProject.githubClientLink}
                 className="text-blue-500 hover:underline"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                {selectedProject.githubLink}
+                {selectedProject.githubClientLink}
               </a>
             </p>
+
+            {/* Conditionally render the GitHub Server Link */}
+            {selectedProject.githubServerLink && (
+              <p className="text-lg mb-4 text-gray-600">
+                <strong>GitHub Server Link:</strong>{" "}
+                <a
+                  href={selectedProject.githubServerLink}
+                  className="text-blue-500 hover:underline"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  {selectedProject.githubServerLink}
+                </a>
+              </p>
+            )}
 
             {/* Close Button */}
             <button
               className="mt-4 px-6 py-2 bg-red-600 text-white rounded-lg hover:bg-red-500"
-              onClick={() => setSelectedProject(null)}
+              onClick={() => setSelectedProject(null)} // Close the modal
             >
               Close
             </button>

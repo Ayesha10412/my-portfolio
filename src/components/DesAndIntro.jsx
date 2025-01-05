@@ -1,7 +1,7 @@
 import React from "react";
 import { FaGithub, FaLinkedin, FaFacebook } from "react-icons/fa";
 import resume from "../assets/AYESHA-KHANAM-Resume.pdf";
-
+import image from "../assets/image.jpeg";
 const DesAndIntro = () => {
   const handleOpenAndDownload = () => {
     // First, trigger the download
@@ -16,13 +16,16 @@ const DesAndIntro = () => {
   };
 
   return (
-    <section className="w-[80%] mx-auto bg-gradient-to-r from-gray-100 via-gray-200 to-gray-300 p-6 md:p-12 border-2 border-red-400 mt-11 rounded-lg shadow-lg">
+    <section
+      className="w-[80%] mx-auto bg-gradient-to-r from-gray-100 via-gray-200 to-gray-300
+     p-6 md:p-12  mt-11 rounded-lg shadow-lg py-8 "
+    >
       <div className="container mx-auto flex flex-col md:flex-row items-center justify-between">
         {/* Profile Image */}
         <div className="flex justify-center items-center">
-          <div className="w-40 h-40 md:w-56 md:h-56 rounded-full overflow-hidden shadow-lg border-4 border-red-500">
+          <div className="w-40 h-40 md:w-56 md:h-56 rounded-full overflow-hidden shadow-lg ">
             <img
-              src="https://via.placeholder.com/150" // Replace with your image URL
+              src={image} // Replace with your image URL
               alt="Profile"
               className="w-full h-full object-cover"
             />

@@ -6,6 +6,7 @@ import Skill from "../components/Skill/Skill";
 import Education from "../components/Education/Education";
 import Projects from "../components/Projects/Projects";
 import Contact from "../components/Contact/Contact";
+import DesAndIntro from "../components/DesAndIntro";
 
 const Router = createBrowserRouter([
   {
@@ -17,23 +18,27 @@ const Router = createBrowserRouter([
         element: <Main></Main>,
       },
       {
-        path: "/",
+        path: "/intro",
+        element: <DesAndIntro></DesAndIntro>,
+      },
+      {
+        path: "/about",
         element: <About></About>,
       },
       {
-        path: "/",
+        path: "/skills",
         element: <Skill></Skill>,
       },
       {
-        path: "/",
+        path: "/education",
         element: <Education></Education>,
       },
       {
-        path: "/",
+        path: "/projects",
         element: <Projects></Projects>,
       },
       {
-        path: "/",
+        path: "/contact",
         element: <Contact></Contact>,
       },
     ],

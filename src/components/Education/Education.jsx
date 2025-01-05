@@ -4,7 +4,7 @@ import universityLogo from "../../assets/Iubat-logo.png"; // Import your logo
 
 const Education = () => {
   return (
-    <div className="container mx-auto px-6 py-16">
+    <div className="container mx-auto px-16 py-16">
       {/* Title Section */}
       <h1 className="text-5xl font-extrabold text-center mb-12 text-transparent bg-clip-text bg-gradient-to-r from-teal-500 to-blue-600">
         My <span className="text-primary">Education</span>
