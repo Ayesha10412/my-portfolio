@@ -1,5 +1,3 @@
-import React from "react";
-
 // Skill data
 const skills = {
   Frontend: [
@@ -14,11 +12,21 @@ const skills = {
     { name: "Node.js", icon: "🌳" },
     { name: "Express.js", icon: "🚀" },
     { name: "MongoDB", icon: "🍃" },
+    { name: "TypeScript", icon: "🔵" },
+    { name: "PostgreSQL", icon: "🐘" },
+    { name: "Mongoose", icon: "🟥" },
   ],
   Tools: [
     { name: "Git", icon: "🔧" },
     { name: "Webpack", icon: "📦" },
     { name: "Figma", icon: "🎨" },
+    { name: "Firebase", icon: "🔥" },
+  ],
+  ProgrammingLanguages: [
+    { name: "C", icon: "🔵" },
+    { name: "C++", icon: "➕➕" },
+    { name: "Java", icon: "☕" },
+    { name: "C#", icon: "🎯" },
   ],
 };
 

@@ -25,7 +25,7 @@ const Education = () => {
                 Bachelor of Science in Computer Science and Engineering
               </h2>
               <h3 className="text-lg mt-2 text-gray-500">
-                IUBAT - International University of Business Agriculture and
+                IUBAT- International University of Business Agriculture and
                 Technology
               </h3>
             </div>
@@ -40,10 +40,10 @@ const Education = () => {
         {/* Duration and CGPA */}
         <div className="flex items-center justify-between mb-6 text-gray-900">
           <p className="text-lg">
-            3rd Year, 9th Semester (out of 12 semesters)
+            4th Year, 11th Semester (out of 12 semesters)
           </p>
           <p className="text-xl font-semibold text-yellow-500">
-            CGPA: 3.91/4.00
+            CGPA: 3.92/4.00
           </p>
         </div>
 
@@ -57,6 +57,8 @@ const Education = () => {
             <li>Software Development</li>
             <li>Database Management</li>
             <li>Operating Systems</li>
+            <li>System Analysis & Design</li>
+            <li>Networking</li>
             <li>Web Development (React, Node.js)</li>
           </ul>
         </div>

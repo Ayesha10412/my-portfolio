@@ -5,7 +5,7 @@
     "techStack": "React, Node.js, MongoDB",
     "description": "An interactive and engaging game designed to help users learn and practice Japanese vocabulary and phrases.",
     "liveLink": "https://lingo-bingo-d22ee.web.app/",
-    "githubClientLink": "https://github.com/programming-hero-web-course1/b10-a9-authentication-Ayesha10412",
+    "githubClientLink": "https://github.com/Ayesha10412/Lingo-Bingo",
     "challenges": "Some of the challenges faced include making the json data and in case of speaking the word.",
     "improvements": "In the future, I plan to implement a more efficient and unique design also i want to add more vocabularies."
   },
@@ -15,20 +15,31 @@
     "techStack": "React, Express, MongoDB",
     "description": "A comprehensive web application for searching, booking, and managing hotel reservations with real-time availability and pricing.",
     "liveLink": "https://visa-portal-auth.web.app/",
-    "githubClientLink": "https://github.com/programming-hero-web-course2/b10-a10-client-side-Ayesha10412",
-    "githubServerLink": "https://github.com/programming-hero-web-course2/b10-a10-server-side-Ayesha10412",
+    "githubClientLink": "https://github.com/Ayesha10412/Visa-Navigator-Portal-client",
+    "githubServerLink": "https://github.com/Ayesha10412/Visa-Navigator-Portal-server",
     "challenges": "Some challenges faced include my visa application section.",
     "improvements": "I plan to add a more robust notification system and enhance the scalability of the backend. I want to add google map too."
   },
   {
     "name": "Hotel Booking",
     "image": "https://i.ibb.co.com/0B2r46p/hotel-booking.png",
-    "techStack": "React, Express, MongoDBc",
+    "techStack": "React, Express, MongoDB",
     "description": "A simple task management web application with user authentication and task categorization.",
     "liveLink": "https://hotel-booking-d9888.web.app/",
-    "githubClientLink": "https://github.com/programming-hero-web-course2/b10a11-client-side-Ayesha10412",
-    "githubServerLink": "https://github.com/programming-hero-web-course2/b10a11-server-side-Ayesha10412",
+    "githubClientLink": "https://github.com/Ayesha10412/Hotel-booking-client",
+    "githubServerLink": "https://github.com/Ayesha10412/Hotel-Booking-server",
     "challenges": "I faced difficulties with task categorization and loading the logged in user details in review section .",
     "improvements": "I plan to integrate a more powerful database, work on the mobile responsiveness, and more unique design for the web page ."
+  },
+  {
+    "name": "Tourism Management System",
+    "image": "https://i.ibb.co/bgJhjqFL/image.png",
+    "techStack": "React, Express, MongoDB",
+    "description": "Tourism Management System is a full-stack app built with React, Express, and MongoDB that enables users to explore and book tours in Bangladesh. It features role-based access, secure authentication, and a responsive design for a seamless travel experience.",
+    "liveLink": "https://tourismmanagement-d781b.web.app/",
+    "githubClientLink": "https://github.com/Ayesha10412/Tourism-Management-System",
+    "githubServerLink": "https://github.com/Ayesha10412/Tourism-Management-System-server",
+    "challenges": "I faced difficulties with task categorization and loading the logged in user details in review section .",
+    "improvements": "I plan to integrate a more powerful database, establish the payment method on different platform like Bkash, Nogod etc, and wanted to establish hotel booking as well as visa system."
   }
 ]

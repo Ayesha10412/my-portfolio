@@ -35,7 +35,7 @@ const DesAndIntro = () => {
         {/* Introduction and Designation */}
         <div className="text-center md:text-left mt-6 md:mt-0">
           <h1 className="text-4xl md:text-5xl font-extrabold text-gray-800 mb-4">
-            Frontend Developer
+            MERN Developer
           </h1>
           <p className="text-lg md:text-xl text-gray-600 mb-6">
             I create beautiful, responsive, and dynamic web applications.
