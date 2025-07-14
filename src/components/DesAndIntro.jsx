@@ -1,13 +1,13 @@
 import React from "react";
 import { FaGithub, FaLinkedin, FaFacebook } from "react-icons/fa";
-import resume from "../assets/AYESHA-KHANAM-Resume.pdf";
+import resume from "../assets/Ayesha-Khanam-Resume.pdf";
 import image from "../assets/image.jpeg";
 const DesAndIntro = () => {
   const handleOpenAndDownload = () => {
     // First, trigger the download
     const link = document.createElement("a");
     link.href = resume;
-    link.download = "AYESHA-KHANAM-Resume.pdf";
+    link.download = "Ayesha-Khanam-Resume.pdf";
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);
